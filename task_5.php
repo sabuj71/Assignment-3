@@ -1,5 +1,5 @@
 <?php
-
+// generate password:
     function generatePassword($length){
         $lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
         $uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
