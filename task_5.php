@@ -20,6 +20,5 @@
     }
     $password=12;
     generatePassword($password);
-    // just test some text
 
 ?>
