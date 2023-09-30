@@ -9,7 +9,7 @@ function calculateAndPrintGrade($studentGrades){
     foreach($studentGrades as $studentName=>$subjects){
         $totalMarks=array_sum($subjects);
         $averageMarks=$totalMarks / count($subjects);
-        $grade = ' ';
+        $grade =' ' ;
         if($averageMarks >=80){
             $grade='A+';
         }elseif($averageMarks >=70){
